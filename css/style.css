@@ -38,7 +38,7 @@ footer a, #email {
   width: 100%;
 }
 .jumbotron .img-responsive {
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 .button-space {
