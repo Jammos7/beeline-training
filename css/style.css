@@ -35,6 +35,10 @@ footer a, #email {
   background-color: #121212;
   margin: 0px 0px;
   padding: 20px 20px;
+  width: 100%;
+}
+.jumbotron .img-responsive {
+  margin: 0 auto;
 }
 
 .button-space {
