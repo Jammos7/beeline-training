@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="Alice, Burke, Dog, Training, Dogs, Beeline, Behaviour, Warwickshire, Rugby">
+  <meta name="author" content="Jamie Moss">
+  <meta name="title" content="Beeline Training Ltd - Making a Beeline for Great Behaviour">
+  <meta name="description" content="Welcome to Beeline Training Ltd, offering positive, reward based dog training in and around Rugby, Warwickshire.">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Beeline Training Ltd - Making a Beeline for Great Behaviour</title>
+      <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 600, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+<script>
+  $(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+</script>
+</head>
+
+<body>
+  
+<nav class="navbar navbar-default navbar-fixed-top" id="topbar">
+  <div class="container">
+  	<a class="navbar-brand" href="index.html"><img src="assets/logomini.png"></a>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+      	<li><a href="#reviews">Reviews</a></li>
+      	<li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center" id="top">
+	<img src="./assets/logo1.png">
+</div>
+
+<div class="container-fluid bg-transparent text-center" id="about">
+	<h1>About Me</h1>
+  <p><img src="assets/alice1.jpg" class="img-responsive img-circle" style="display:inline" alt="Alice" width="150" height="150"></p>
+  
+	<p>Welcome to Beeline Training Ltd, offering positive, reward based dog training in and around Rugby, Warwickshire.</p>
+  <p>With over ten years experience working in the dog behaviour industry, Alice Burke is an enthusiastic, experienced and positive trainer offering 121 and group puppy and dog training classes.</p>
+  <p>Alice started working with dogs from a young age. Following graduating with a BSc degree in Zoology, with a specialism in animal behaviour, Alice worked as a veterinary nursing assistant in Nottingham before pursuing a full time behaviourist job at Battersea Dogs & Cats Home in London. After working as a intake assessor and behaviourist with Battersea for a number of years, this was followed by further years as an Assistance Dog Instructor with Medical Detection Dogs, specialising in scent detection and client support.  Alice has trained all kinds of breeds and temperaments.</p>
+  <p>Beeline Training Ltd. are strong advocates for force-free training and believe positive methods are the only methods! We are committed to encouraging reward-based training and the development of a strong and positive relationship between dogs and owners. Regardless of a dog’s history, age or breed, there’s always room for training, and we can show you how both you and your dog can enjoy working together towards great behaviour. 121 training classes are tailored to each dog and owner partnership, so you can be assured to receive bespoke training and advice. Or bring another four legged friend along for a discounted group class.</p>
+  <p>Get in touch with Alice and Beeline Training Ltd. to see how we can help you and your dog today.</p>
+
+  <h1>Qualifications</h1>
+  <p>Alice is <b>fully insured</b> and holds an <b>enhanced DBS certificate</b>, as well as safeguarding certificates for work with adults and children.</p>
+  <p>Qualifications include:</p>
+  	<li>BSc Hons in Zoology, University of Nottingham</li>
+  	<li>Certificate in Animal Behaviour and Welfare, University of Edinburgh</li>
+  	<li>Canine First Aid</li>
+</div>
+
+<div class="container-fluid bg-1 text-center" id="services">
+  <h1>Services</h1>
+  <h4>What I am offering:</h4>
+  <!-- Container (Services Section) -->
+<div class="container-fluid text-center ">
+  <div class="row vertical-align">
+    <div class="col-sm-4">
+      <h4>121 Puppy Session</h4>
+      <h5>1 hour • £50</h5>
+      <p>121 puppy training session</p>
+      	<p>
+		An introduction to early training techniques and basics of good behaviour, all in the comforts of your own home.
+		</p>
+		<p> 
+		Training will be tailored to the needs of you and your puppy but can include basics such as toilet training, basic obedience, recall and settling
+		</p>
+		<p>
+		For ongoing training, consider our Puppy Training Course for a discount. 
+		</p>
+		<p>
+		Got friends with puppies? Discounts also available for group sessions, so why not invite some friends along?
+		</p>
+		<p>
+		Travel charges may be applied to locations outside a 15 mile radius from Rugby (CV21)
+		</p>
+    </div>
+    <br><br>
+    <div class="col-sm-4">
+      <h4>121 Training Session (6 months plus)</h4>
+      <h5>1 hour • £50</h5>
+      <p>121 training session for adolescent and adult dogs</p>
+      	<p>
+		An introduction to training techniques, understanding canine body language or specific training tailored to your needs. In the comfort of your own home or local park. 
+		</p>
+		<p> 
+		Training will be tailored to the needs of you and your dog but can address common issues such as jumping up, calm behaviour out and about, socialisation, lead walking and recall basics.
+		</p>
+		<p>
+		For ongoing training, consider our 121 Training Course for discounted block booking. Group discounts also available where appropriate - call for more info. 
+		</p>
+		<p>
+		Travel charges may apply
+		</p>
+    </div>
+    <br><br>
+    <div class="col-sm-4">
+      <h4>Training Walk</h4>
+      <h5>1 hour • £25</h5>
+      	<p>
+		Do you need some support with lead walking or socialisation?
+		</p>
+		<p> 
+		Let our trainer join you on your dog walk for some quick tips and training advice.
+		</p>
+		<p>
+		Travel charges may be applied to locations outside a 15 mile radius from Rugby (CV21)
+		</p>
+    </div>
+    <br><br>
+  </div>
+  <div style="margin-top: 50px;" class="row vertical-align">
+    <div class="col-sm-4">
+      <h4>Behavioural Solutions</h4>
+      <h5>2 hours 30 minutes • £125</h5>
+      	<p>
+		For more complex behavioural problems, including anti-social behaviour with people or dogs, reactivity, guarding behaviour. Call for a free discussion if you're unsure whether this is the right option for you.
+		</p>
+		<p> 
+		Price includes:
+		<li>initial telephone consultation</li>
+		<li>2.5 hour private visit and training session</li>
+		<li>behavioural report and bespoke training plan</li>
+		<li>access to reduced price follow-on training sessions</li>
+		</p>
+		<p>
+		Travel charges may be applied to locations outside a 15 mile radius from Rugby (CV21)
+		</p>
+    </div>
+    <br><br>
+    <div class="col-sm-4">
+      <h4>Puppy Course (5x 1 hour sessions)</h4>
+      <h5>5 hours • £200</h5>
+      	<p>
+		Block booking of 5 individual training sessions for puppies below 6 months of age.
+		</p>
+		<p> 
+		An introduction to early training techniques and basics of good behaviour, all in the comforts of your own home and local park. 
+		</p>
+		<p>
+		Training will be tailored to the needs of you and your puppy but can include basics such as toilet training, basic obedience, recall and settling.
+		</p>
+		<p>
+		Travel charges may be applied to locations outside a 15 mile radius from Rugby (CV21)
+		</p>
+    </div>
+    <br><br>
+    <div class="col-sm-4">
+      <h4>Training Course (5x 1 hour sessions)</h4>
+      <h5>5 hours • £200</h5>
+      	<p>
+		Block booking of 5 individual training sessions for adolescent and adult dogs.
+		</p>
+		<p> 
+		Training will be tailored to the needs of you and your dog but can address common issues such as jumping up, calm behaviour out and about, socialisation, lead walking and recall basics.
+		</p>
+		<p>
+		An introduction to training techniques, understanding canine body language or specific training tailored to your needs. In the comfort of your own home or local park.
+		</p>
+		<p>
+		Travel charges may be applied to locations outside a 15 mile radius from Rugby (CV21)
+		</p>
+    </div>
+    <br><br>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid text-center" id="reviews">
+  <h1>Reviews</h1>
+  	<p><i>"Alice recently spent some time with us and our 12 week whippet puppy and I couldn’t recommend her enough! She gave us some really helpful tips and tricks with a detailed training plan. We already have our next session with Alice booked in!"</i></p>
+  	<p>- Leigh Brotherhood</p>
+  </div>
+</div>
+
+<div class="container-fluid bg-1 text-center" id="contact">
+  <h1>Contact</h1>
+
+
+
+          <!--Section description-->
+          <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact
+            me directly.</p>
+                <span class="glyphicon glyphicon-map-marker"></span>
+                  <p>Rugby, Warwickshire, UK</p>
+
+                <span class="glyphicon glyphicon-phone"></span>
+                  <p><a href="tel:07758075377">07758 075377</a></p>
+
+                <span class="glyphicon glyphicon-envelope"></span>
+                  <p><a href="mailto:alice-burke@hotmail.co.uk">alice-burke@hotmail.co.uk</a></p>
+            <!--Grid column-->
+
+          </div>
+
+  </div>
+	
+<footer class="container-fluid bg-1 text-center">
+<p>© Copyright 2020. All rights reserved.</p>
+<p>Website Developed by <a href="http://www.jammos.co.uk">Jamie Moss</a> using <a href="http://www.getbootstrap.com">Bootstrap</a></p> 
+</footer>
+</body>
+</html>
