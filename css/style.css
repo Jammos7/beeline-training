@@ -1,0 +1,169 @@
+/**********************************
+Responsive web design code
+***********************************/
+body { 
+    /* The image used */
+    background-color: #fff;
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+footer a, #email {
+  color: #fff;
+  text-decoration-line: underline;
+}
+.navbar-brand {
+  padding-top: 0;
+}
+.navbar-nav li a, .navbar-brand {
+    color: #ffffff !important;
+}
+.navbar-nav a:hover {
+    background-color: #9fbfbc !important;
+}
+.container-fluid {
+  padding: 30px 30px;
+}
+.jumbotron {
+  background-color: #121212;
+  margin: 0px 0px;
+  padding: 20px 20px;
+}
+
+.button-space {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.bg-1 { 
+       background-color: #121212; /* Dark Blue */
+        color: #ffffff;
+    }
+.bg-grey { 
+       background-color: #333; /* Grey */
+        color: #ffffff;
+    }
+.bg-4 { 
+    color: #ffffff;
+    bottom: 0;
+}
+.container-fluid {
+      margin-top: 0px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-md-6 {
+  padding: 30px;
+}
+#topbar {
+  background-color: #121212;
+    color: #ffffff;
+    border-width: 0;
+    min-width: 100%;
+    border-radius: 0;
+    margin-bottom: 0;}
+.btn-linkedin {
+    background: #0E76A8;
+    border-radius: 1;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+  }
+  .btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
+  }
+.btn-linkedin:active, .btn-linkedin:hover {
+    background: #295baa;
+    color: #fff;
+  }
+footer .btn-linkedin {
+  background: transparent;
+  border-width: 0px;
+  color: #fff;
+}
+footer .btn-linkedin:active, .footer .btn-linkedin:hover {
+    color: #fff;
+  }
+.logo {
+  font-size: 60px;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.container:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+form {
+  color: black;
+}
+#success {
+  display: none;
+}
