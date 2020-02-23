@@ -3,16 +3,15 @@ Responsive web design code
 ***********************************/
 body { 
     /* The image used */
-    background-color: #fff;
     /* Full height */
     height: 100%;
-
+    margin: 0 auto;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #000000;
+    color: #121212;
     font-family: 'Quattrocento Sans', sans-serif;
 }
 footer a, #email {
@@ -57,6 +56,9 @@ footer a, #email {
     color: #ffffff;
     bottom: 0;
 }
+.bg-light {
+  color: #121212;
+}
 .container-fluid {
       margin-top: 0px;
 }
@@ -99,6 +101,17 @@ footer .btn-linkedin:active, .footer .btn-linkedin:hover {
   }
 .logo {
   font-size: 60px;
+}
+
+#reviews .card {
+  padding: 30px;
+}
+.paragraph {
+  width: 80%;
+  margin: 0 auto;
+}
+.paragraph p {
+  padding: 10px;
 }
 
 .slideanim {visibility:hidden;}
