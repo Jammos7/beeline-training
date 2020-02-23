@@ -113,7 +113,12 @@ footer .btn-linkedin:active, .footer .btn-linkedin:hover {
 .paragraph p {
   padding: 10px;
 }
-
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+.navbar-nav > li {
+  padding: 0px 30px;
+}
 .slideanim {visibility:hidden;}
 .slide {
     /* The name of the animation */
